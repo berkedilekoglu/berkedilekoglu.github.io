@@ -1,0 +1,247 @@
+body{
+    background-color: #F5F5F5;
+}
+p{
+    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+a:link {
+    text-decoration: none;
+  }
+.row{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+/* Starting Personal Info  */
+
+.personal_info {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.personal_info h1{
+    font-size: 100%;
+    letter-spacing: .2rem;
+}
+
+.personal_info .profil_img{
+    display: block;
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.personal_info .profil_links{
+
+    padding-top: 1%;
+}
+
+
+.personal_info .profil_links .social-link
+{
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 60%;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    text-align: left;
+    color: #008080;
+
+    
+}
+
+.personal_info .profil_links .social-link:hover
+{
+    color: #ed3572;
+}
+
+
+.personal_info .profil_summary{
+    padding-top: 1%;
+}
+
+
+.personal_info .profil_summary p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    font-size: 70%;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+/* End Personal Info  */
+
+/* Starting CV Info  */
+
+.cv_summary{
+    padding-top: 10%;
+    padding-left: 10%;
+    
+}
+
+.cv_summary h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: .3rem;
+    font-weight: 700;
+    text-align: left;
+}
+.cv_summary p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1%;
+    font-size: 70%;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    text-align: left;
+}
+.cv_summary .work_experience_part h2{
+    padding-top: 1%;
+}
+.cv_summary .work_experience_part h4{
+    padding-top: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: .2rem;
+    font-size: 100%;
+    font-weight: 500;
+    text-align: left;
+}
+
+.cv_summary .papers_part h2{
+    padding-top: 1%;
+}
+
+.cv_summary .papers_part p{
+    padding-bottom: 2%;
+}
+
+/* End CV Info  */
+
+.designer{
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0rem;
+    font-size: 50%;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) and (min-width: 270px){
+
+    .personal_info{
+        padding-left: 0%;
+    }
+    .personal_info .profil_img{
+        max-width: 100%;
+    }
+    .personal_info .profil_summary{
+        padding-top: 1%;
+    }
+    .personal_info .profil_summary p{
+        
+        padding-top: 3%;
+        font-size: 70%;
+        letter-spacing: .1;
+        font-weight: 700;
+    }
+    .cv_summary{
+        padding-left: 0%;
+        
+    }
+    .cv_summary p{
+       
+        padding-top: 3%;
+        font-size: 70%;
+        letter-spacing: .1rem;
+        font-weight: 300;
+       
+    }
+    .cv_summary h2{
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        text-align: left;
+    }
+    .cv_summary .work_experience_part h2{
+        padding-top: 3%;
+    }
+    .cv_summary .work_experience_part h4{
+        padding-top: 3%;
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: .1rem;
+        font-size: 100%;
+        font-weight: 500;
+        
+    }
+    .cv_summary .papers_part p{
+        padding-bottom: 10%;
+    }
+}
+
+
+@media (max-width: 1366px) and (min-width: 601px){
+
+    .personal_info{
+        padding-left: 0%;
+    }
+    .personal_info .profil_img{
+        max-width: 100%;
+    }
+    .personal_info .profil_summary{
+        padding-top: 1%;
+    }
+    .personal_info .profil_summary p{
+        
+        padding-top: 3%;
+        font-size: 70%;
+        letter-spacing: .1;
+        font-weight: 700;
+    }
+    .cv_summary{
+        padding-left: 0%;
+        
+    }
+    .cv_summary p{
+       
+        padding-top: 3%;
+        font-size: 70%;
+        letter-spacing: .1rem;
+        font-weight: 300;
+       
+    }
+    .cv_summary h2{
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        text-align: left;
+    }
+    .cv_summary .work_experience_part h2{
+        padding-top: 3%;
+    }
+    .cv_summary .work_experience_part h4{
+        padding-top: 3%;
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: .1rem;
+        font-size: 100%;
+        font-weight: 500;
+        
+    }
+    .cv_summary .papers_part p{
+        padding-bottom: 4%;
+    }
+    
+
+}
