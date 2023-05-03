@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    position: relative;
+    background-color: #FFF;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+  }
+  
+  #overlay {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+ 
+
+  #name {
+    font-size: 350%;
+    font-weight: bold;
+  }
+  
+  #position {
+    margin-top: 1%;
+    font-size: 200%;
+    color: #333;
+  }
+
+  #msc {
+    margin-top: 1%;
+    font-size: 100%;
+    color: #333;
+  }
+
+  /* Diğer CSS stilleri */
+
+  #social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+    pointer-events: auto;
+    z-index: 2;
+  }
+  
+  .social-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 260%;
+  }
+  
+  .social-link:hover {
+    color: #872929;
+  }
+  
+  
+
+  .designer {
+    font-family: "Courier New", monospace;
+    letter-spacing: 0rem;
+    font-size: 50%;
+    font-weight: 900;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    color: #060606;
+    width: 100%;
+
+
+  }
+  /* Diğer CSS stilleri */
+
+
+  
