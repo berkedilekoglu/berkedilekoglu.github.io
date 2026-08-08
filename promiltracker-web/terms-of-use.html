@@ -235,9 +235,14 @@
       buttons.forEach(function (b) {
         b.addEventListener('click', function () { setLang(b.getAttribute('data-set-lang')); });
       });
+      // The app links here with ?lang=tr|en so the page opens in whichever
+      // language the visitor was already using there, instead of always
+      // defaulting to Turkish. Direct visits (no query param) fall back to
+      // whatever was last chosen with the in-page toggle above.
+      var fromQuery = new URLSearchParams(location.search).get('lang');
       var saved = null;
       try { saved = localStorage.getItem('promiltracker-legal-lang'); } catch (e) {}
-      setLang(saved || 'tr');
+      setLang(fromQuery === 'en' || fromQuery === 'tr' ? fromQuery : (saved || 'tr'));
     })();
   </script>
 </body>
